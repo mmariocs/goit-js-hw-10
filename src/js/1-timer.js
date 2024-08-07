@@ -105,6 +105,7 @@ function addLeadingZero(value) {
   return String(value).padStart(2, '0')
 }
 
+
 function disableControls() {
   datetimePicker.disabled = true
   startBtn.disabled = true
