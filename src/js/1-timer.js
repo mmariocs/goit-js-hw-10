@@ -100,6 +100,7 @@ function updateTime(days, hours, minutes, seconds) {
   secondsElement.textContent = addLeadingZero(seconds)
 }
 
+
 function addLeadingZero(value) {
   return String(value).padStart(2, '0')
 }
